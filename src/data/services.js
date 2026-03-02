@@ -1,0 +1,38 @@
+export const services = [
+  {
+    accentColor: '#7ed957',
+    iconBg: 'rgba(126, 217, 87, 0.15)',
+    iconStroke: 'var(--primary)',
+    iconPath: '<rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="3"></circle><line x1="12" y1="8" x2="12" y2="11"></line><line x1="8" y1="16" x2="8" y2="16.01"></line><line x1="16" y1="16" x2="16" y2="16.01"></line>',
+    title: 'Automatisation IA',
+    description: "Solutions RPA et IA pour automatiser vos processus métier. Gagnez jusqu'à 65% de temps sur vos tâches répétitives.",
+    tags: ['IA', 'RPA', 'Productivité'],
+  },
+  {
+    accentColor: '#3b82f6',
+    iconBg: 'rgba(59, 130, 246, 0.15)',
+    iconStroke: '#3b82f6',
+    iconPath: '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>',
+    title: 'Télécom IP & 3CX',
+    description: "Standard téléphonique 3CX nouvelle génération. Unifiez vos communications et réduisez vos coûts jusqu'à 50%.",
+    tags: ['3CX', 'VoIP', 'UC'],
+  },
+  {
+    accentColor: '#ef4444',
+    iconBg: 'rgba(239, 68, 68, 0.15)',
+    iconStroke: '#ef4444',
+    iconPath: '<rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path>',
+    title: 'Cybersécurité Avancée',
+    description: 'Protection complète contre les cybermenaces. Firewall, SOC, audits de sécurité et conformité RGPD.',
+    tags: ['SOC', 'Firewall', 'RGPD'],
+  },
+  {
+    accentColor: '#a855f7',
+    iconBg: 'rgba(168, 85, 247, 0.15)',
+    iconStroke: '#a855f7',
+    iconPath: '<circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>',
+    title: 'Infrastructure & Réseaux',
+    description: "Conception et déploiement d'infrastructures IT performantes. Serveurs, réseaux, cloud et virtualisation.",
+    tags: ['Cloud', 'Réseaux', 'Serveurs'],
+  },
+]
